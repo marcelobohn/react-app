@@ -1,1 +1,7 @@
 node_modules/
+.idea/
+coverage/
+src/components/styles.css
+src/components/styles.css.map
+src/styles.css
+src/styles.css.map
