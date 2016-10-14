@@ -12,7 +12,7 @@ const App = () => (
   <div className='main-app'>
     <h1>Hello, World!</h1>
     <Menu />
-    <Button bsStyle="success">Success</Button>
+    <Button bsStyle='success'>Success</Button>
   </div>
 );
 
