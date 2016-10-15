@@ -1,7 +1,5 @@
 import React from 'react';
 
-require('newrelic');
-
 import Welcome from './components/welcome';
 import Profile from './components/profile';
 
