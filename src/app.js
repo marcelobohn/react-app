@@ -1,19 +1,14 @@
-// node
-// vendors
 import React from 'react';
-// project
-import Menu from './components/menu';
-import Welcome from './components/welcome';
 
-import { Button } from 'react-bootstrap';
+import Welcome from './components/welcome';
+import Profile from './components/profile';
 
 import './styles.scss';
 
 const App = () => (
   <div className='main-app'>
     <Welcome />
-    <Menu />
-    <Button bsStyle='success'>Success</Button>
+    <Profile name='Marcelo Bohn' />
   </div>
 );
 
