@@ -11,6 +11,10 @@
     "start": "node server.js",
     "test": "npm run lint && node_modules/.bin/karma start --single-run --no-auto-watch karma.config.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcelobohn/react-app.git"
+  },
   "keywords": [
     "react",
     "boilerplate",
@@ -28,6 +32,7 @@
   "license": "MIT",
   "dependencies": {
     "babel-runtime": "^6.9.2",
+    "newrelic": "^1.31.0",
     "react": "^15.1.0",
     "react-bootstrap": "^0.30.5",
     "react-dom": "^15.1.0"
