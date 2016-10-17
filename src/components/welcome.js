@@ -1,6 +1,8 @@
 import React from 'react';
 import { Jumbotron } from 'react-bootstrap';
 
+import './styles.scss';
+
 function Welcome() {
   return (
     <Jumbotron>
